@@ -231,6 +231,10 @@ article h2 {
   font-size: 1.1em;
 }
 
+#formacao-container .titulacao {
+  padding-bottom: 5px;
+}
+
 #formacao-container .instituicaotraba {
   color: var(--destaque);
   font-size: 1.1em;
