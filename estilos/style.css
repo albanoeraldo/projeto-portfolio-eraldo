@@ -18,12 +18,12 @@
 
 /* Tema escuro */
 body.escuro {
-  --fundo-principal: #0b1020;
-  --texto: #eaeaea;
-  --texto-inverso: #0b1020;
-  --destaque: #60a5fa;
-  --destaque-inverso: #2563eb;
-  --fundo-card: #1a1f2b;
+  --fundo-principal: #222222;
+  --texto: #e0e0e0;
+  --texto-inverso: #333333;
+  --destaque: #ff5522;
+  --destaque-inverso: #a73917;
+  --fundo-card: #444444;
 }
 
 
@@ -32,6 +32,7 @@ body {
   line-height: 1.5em;
   background-color: var(--fundo-principal);
   color: var(--texto);
+  transition: background-color .5s, color .5s;
 }
 
 header {
